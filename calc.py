@@ -1,5 +1,12 @@
 
-# Welcome to my Python Calculator
+'''
+Creation Date: 1/2/2024
+Last Updated:
+
+Welcome to my Python Calculator!
+'''
+
+# Calculator Functions
 
 def add(x, y):
     return x + y
@@ -15,6 +22,8 @@ def divide(x, y):
         return x / y
     else:
         return "Cannot divide by zero"
+
+# Calculator
 
 def calculator():
     print("Simple Calculator")
